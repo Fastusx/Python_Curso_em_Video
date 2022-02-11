@@ -1,0 +1,2 @@
+ex = ('America-MG', 'Athletico-PR', 'Atletico-GO', 'Atletico-MG', 'Avai', 'Botafogo', 'Bragantino', 'Ceara', 'Corinthians', 'Curitiba', 'Cuiaba', 'Flamengo', 'Fluminense', ' Goias', 'Internacioanal' ,'Juventude', 'Palmeiras', 'Santos', 'Sao Paulo')
+print(f'Os 5 primeiros foram {ex[0:6]}')
