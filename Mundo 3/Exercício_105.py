@@ -23,13 +23,10 @@ def aluno(nota, sit=False):
 
 
 n = []
-cont = 1
 while True:
-
-    resp = float(input(f'Nota do {cont}º aluno(a)'))
+    resp = float(input(f'Nota do aluno(a): '))
     n.append(resp)
     r = input('Tem mais [S/N]? ').upper()
-    cont += 1
     if r in 'Nn':
         break
 
