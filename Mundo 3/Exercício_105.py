@@ -15,9 +15,9 @@ def aluno(nota, sit=False):
         if dictnts['média'] >= 7:
             dictnts['Situação'] = 'Aprovado'
         elif 5 <= dictnts['média'] < 7:
-            dictnts['Situação'] = 'Recuperação'
+            dictnts['Situação'] = 'Razoável'
         else:
-            dictnts['Situação'] = 'Reprovado'
+            dictnts['Situação'] = 'Ruim'
 
     return dictnts
 
