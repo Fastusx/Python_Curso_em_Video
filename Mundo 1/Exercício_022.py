@@ -1,0 +1,7 @@
+n = str(input('Nome completo: '))
+print(f'Seu nome em letras maiúsculas fica: {n.upper()}')
+print(f'Seu nome em letras minúsculas fica: {n.lower()}')
+wspace = n.replace(' ', '')
+div = n.split()
+print(f'Seu nome tem ao todo {len(wspace)}')
+print(f'O seu primeiro nome é {div[0]} e tem {len(div[0])}')
